@@ -1,0 +1,142 @@
+<!DocType html>
+<html>
+<head>
+<title>Need Focus</title>
+<meta name="keywords" content="html,css,purpose of life">
+<meta name="author" content="Thinakaran">
+<meta name="viewport" content="width=device-width,initial scale=1,0">
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/93f7c1b0e3.js" crossorigin="anonymous"></script>
+<style>
+	h1
+{		color:white;
+		font-family: 'Tilt Prism', cursive;
+		font-size:50px;
+		text-align:center;
+		border:5px double;
+		border-image:url(img2.jpg) 30 round;
+		border-image-width:7x;
+}	
+	#username,#passcode
+{		background-image:linear-gradient(#5EDDDF,white,#5EDDDF);
+		width:200px;
+		height:20px;
+		
+}
+	#loginbutton
+{		text-variant:small-caps;
+		background-image:url("img2.jpg");
+		background-position:center;
+		font-family:times new roman;
+		font-size:25px;
+}
+	body
+{		background-image:url("june11.jpg");
+		background-attachment:scroll;
+		background-position:top-center;
+}
+	#firstcontent
+{		text-align:center;
+		font-size:25px;
+		width:680px;
+		padding:5px 100px 30px 0px;
+		border:7px double white;
+		border-radius:10px;
+		margin-left:220px ;
+		background-color:#F9CDD7;
+}
+	#signin
+{		background-color:#FFFF45;
+		font-size:20px;
+		font-weight:bold;
+		text-indent:10px;
+		text-decoration:underline;
+}
+	#place
+{		color:white;
+		text-variant:small-caps;
+		font-family:Times new roman;
+		font-size:10;
+		font-weight:bold;
+		font-style:italic;
+		padding:10px;
+}
+	#country
+{		padding:20;
+		width:150px;
+		height:35px;
+}
+	#passage
+{		color:white;
+		font-family: 'Montserrat', sans-serif;
+		text-align:center;
+}
+	#agreebutton
+{		width:300px;
+}
+	#author
+{  		color:white;
+		size:20;
+}
+	ul
+{		list-style-type:square;
+		color:#F9BCEF;
+		font-family: 'Dosis', sans-serif;
+		font-family: 'Montserrat', sans-serif;
+}
+a:link{color:red;}
+a:visited{color:yellow;}
+a:hover{color:orange;}
+a:active{color:green;}
+</style>
+</head>
+<body>
+<h1>STORY OF MY LIFE</h1>
+
+<div id="place"> Before scroll down please state where are you from:
+	<select id="country" autofocus required>
+		<option>Are you from?</option>
+		<optgroup label="Asia">
+		<option value="IND">India</option>
+		<option value="CHI">China</option>
+		<option value="SL">Srilanka</option></optgroup>
+		<optgroup label="Europe">
+		<option value="SPA">Spain</option>
+		<option value="FRA">France</option></optgroup>
+	</select><br><br>
+</div>
+<div id="firstcontent">
+<span style="font-size:30px;">Hello There..I am Thinakaran,</span><br><br>Yeah,this is all about me.This is the one page that explore
+ my 24 years of my journey to this planet called <span style="background-image:linear-gradient(#FCFE5E,#C0FFF1)" >" EARTH "</span>
+</div>
+<p id="signin">For more to know,you should must be need to sign in: <i class="fa-duotone fa-face-awesome"></i> </p><br>
+
+<span style="margin-left:280px;"><label for="username" >UserID :</label><input type="text" id="username" name="username" value="">
+<label for="passcode">Passcode : </label><input type="password" id="passcode" name="password" value=""><br><br><br></span>
+<span style="margin-left:550px;"><input type="button" id="loginbutton" name="login" value="Login"></span>
+<a href="https://www.youtube.com/watch?v=i7vWfP-x-f4"target="_blank">Click</a>
+
+
+<p id="passage"><i class="fa fa-heart" aria-hidden="true"></i><b><del>Life</b></del> is full of both <i>joys and disasters</i>.Without them,life is just a <mark><ins>never-ending war</ins> that can be won at any time.</mark><i class="fa fa-heart" aria-hidden="true"></i>
+<br><small>i.e;just a reminder</small></p>
+
+
+<p style="color:white;">Response on above quote : 
+<input list="thought">
+<datalist id="thought">
+<option value="It's True"></option>
+<option value="It is inappropriate"></option>
+<option value="Not Interested"></option>
+</datalist>
+</p><br><br>
+<button id="agreebutton">If you agree then click here or not please give us a thought about this</button><br>
+<textarea rows="2px" cols="50px" placeholder="What's on your mind"></textarea>
+<div id="author">Let's See some perspective of life by some famous in the world :</div>
+<ul>	
+<li>'All the world's a stage, and all the men and women merely players.' – <b>William Shakespeare</b></li>
+<li>'It is never too late to be what you might have been.' – <b>George Eliot</b></li>
+<li>'You can always edit a bad page. You can't edit a blank page.' – <b>Jodi Picoul</b></li>
+<li>'Be kind, for everyone you meet is fighting a hard battle.' – <b>Plato</b></li>	
+</body>
+</html>
